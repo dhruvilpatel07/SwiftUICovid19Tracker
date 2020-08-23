@@ -31,9 +31,9 @@ struct ContentView: View {
                     VStack(alignment: .leading){
                         Text("\(tracking.total)").font(.largeTitle)
                         //TO-DO Implement HStack
-                        //HStack{
-                            //Image(systemName: "plus").imageScale(.small)
-                        //}
+                        HStack{
+                            Image(systemName: "plus").imageScale(.small)
+                        }
                     }
                     .padding(.leading, 50.0)
 
