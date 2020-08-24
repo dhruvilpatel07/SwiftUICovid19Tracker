@@ -33,6 +33,8 @@ struct ContentView: View {
                         //TO-DO Implement HStack
                         HStack{
                             Image(systemName: "plus").imageScale(.small)
+                            Text("Hello")
+                            Text("Hello again")
                         }
                     }
                     .padding(.leading, 50.0)
